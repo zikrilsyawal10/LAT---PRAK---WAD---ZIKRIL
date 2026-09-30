@@ -1,0 +1,64 @@
+/* 6. Background dan warna teks */
+body {
+  background-color: #1e3a5f;
+  color: #333333;
+  /* 8. Font */
+  font-family: Verdana, sans-serif;
+}
+
+/* 7. Align (rata tengah) */
+.kartu {
+  background-color: white;
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #1e3a5f;
+  object-fit: cover;
+}
+
+h1 { color: #1e3a5f; }
+h2, h3, h4 { color: #444444; }
+h5, h6 { color: gray; }
+
+/* Tombol sosial media bulat */
+.sosmed {
+  margin: 20px 0;
+}
+
+.sosmed a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #1e3a5f;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sosmed a:hover {
+  background-color: orange;
+}
+
+table {
+  margin: auto;
+}
+
+th, td {
+  padding: 8px 15px;
+}
+
+th {
+  background-color: #1e3a5f;
+  color: white;
+}
